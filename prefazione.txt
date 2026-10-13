@@ -1,0 +1,18 @@
+## Prefazione
+
+Questo libro spiega, senza dare nulla per scontato, come funzionano i grandi modelli linguistici — i *Large Language Models*, o LLM — che stanno dietro a ChatGPT, Claude, Gemini e agli altri assistenti con cui oggi milioni di persone scrivono, studiano e lavorano.
+
+### Perché vale la pena capirli
+
+In pochi anni gli LLM sono passati dai laboratori di ricerca agli smartphone. Scrivono email, riassumono documenti, traducono, rispondono a domande di medicina o di diritto, aiutano a programmare. Eppure, per la maggior parte di chi li usa, restano una scatola nera: a volte sembrano onniscienti, altre volte sbagliano in modo clamoroso con la stessa sicurezza.
+
+Capire come funzionano aiuta a usarli meglio. Chi sa che un LLM sceglie le parole in base alla probabilità, e non alla verità, sa anche quando fidarsi e quando controllare. Chi sa da quali testi ha imparato capisce da dove vengono i suoi pregiudizi. Chi sa quanto costa addestrarlo comprende perché solo poche aziende al mondo riescono a costruirne di grandi.
+
+### L'idea che attraversa tutto il libro
+
+C'è un'idea sola, sorprendentemente semplice, che regge tutto il resto: **un LLM è una macchina addestrata a indovinare la parola successiva di un testo**.
+
+Il preaddestramento a prevedere il token successivo, esercitato su quantità di testo che nessun essere umano potrebbe leggere in mille vite, costruisce gran parte delle capacità linguistiche del modello; ulteriori fasi di addestramento e strumenti esterni lo trasformano poi nell'assistente che usiamo per rispondere a una domanda, scrivere una poesia, riassumere un articolo, tradurre una lettera. Il libro mostra come da un compito così modesto possano nascere comportamenti così ricchi, e quali limiti porta con sé. È l'idea che guida tutto il libro: in un LLM, tutto comincia dalla parola successiva.
+
+L'intelligenza artificiale è un campo vastissimo. Questo libro si concentra sulla sua parte oggi più visibile: le macchine che scrivono e conversano, cioè i grandi modelli linguistici. Altri tipi di intelligenza artificiale, come i sistemi che guidano le automobili o giocano a scacchi, restano sullo sfondo, anche se molte delle idee che incontreremo — le reti neurali, l'addestramento sui dati, il transformer — valgono anche per loro. Ci concentreremo in particolare sui modelli che generano testo un token alla volta, detti autoregressivi, e vedremo come le fasi di addestramento successive e gli strumenti esterni li trasformino negli assistenti che usiamo ogni giorno.
+
